@@ -117,7 +117,7 @@ else:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql",
-            "NAME": "mhs_pro",
+            "NAME": "modest_app",
             "USER": "postgres",
             "PASSWORD": "anis1234",
             "HOST": "localhost",
