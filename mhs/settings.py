@@ -27,7 +27,12 @@ SECRET_KEY = 'django-insecure-%47vk9wd@9%tb++(j#m%0v81o4m3sl+rdbj#x@kfk*!#stglfg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'modest-hizab-store.onrender.com',
+]
 
 
 # Application definition
